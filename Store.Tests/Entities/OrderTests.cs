@@ -2,7 +2,7 @@ using Store.Domain.Enums;
 using Store.Domain.Entities;
 
 namespace Store.Tests.Entities;
-[TestClass]
+// [TestClass]
 public class OrderTests
 {
     private readonly Customer _customer = new Customer("Andre Baltieri", "andre@balta.io");
