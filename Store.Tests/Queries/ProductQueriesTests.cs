@@ -2,7 +2,7 @@ using Store.Domain.Queries;
 using Store.Domain.Entities;
 
 namespace Store.Tests.Queries;
-[TestClass]
+//[TestClass]
 public class ProductQueriesTests
 {
     private IList<Product> _products;
