@@ -22,9 +22,9 @@ public class CreateOrderCommand : Notifiable<Notification>, ICommand
         Items = items;
     }
 
-    public string Customer { get; private set; }
-    public string ZipCode { get; private set; }
-    public string PromoCode { get; private set; }
+    public string Customer { get; set; }
+    public string ZipCode { get; set; }
+    public string PromoCode { get; set; }
     public IList<CreateOrderItemCommand> Items { get; private set; }
 
     public void Validate()
