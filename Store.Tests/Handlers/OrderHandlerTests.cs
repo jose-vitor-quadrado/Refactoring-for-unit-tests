@@ -5,7 +5,7 @@ using Store.Domain.Repositories.Interfaces;
 
 namespace Store.Tests.Handlers;
 [TestClass]
-public class OrtderHandlerTests
+public class OrderHandlerTests
 {
     private readonly ICustomerRepository _customerRepository;
     private readonly IDeliveryFeeRepository _deliveryFeeRepository;
@@ -13,7 +13,7 @@ public class OrtderHandlerTests
     private readonly IProductRepository _productRepository;
     private readonly IOrderRepository _orderRepository;
 
-    public OrtderHandlerTests()
+    public OrderHandlerTests()
     {
         _customerRepository = new FakeCustomerRepository();
         _deliveryFeeRepository = new FakeDeliveryFeeRepository();
